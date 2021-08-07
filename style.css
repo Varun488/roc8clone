@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding:0;
+    margin-top:0;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+/**** NAVBAR STYLEING ****/
+.main-heading{
+    display:inline-block;
+    margin:3% 7%;
+    font-size: 2.5rem;
+}
+.navbar{
+    background-color: black;
+    color:white;
+    text-decoration: none;
+    font-weight:bold;
+}
+.navlist{
+    display:inline;
+    color: white;
+    position:relative;
+    margin:20px;
+    margin-left:30px;
+}
+.nav{
+    color:white;
+    margin-right: 5px;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 1.2rem;
+    padding:8px;
+}
+.navlist .nav:hover{
+    background-color: red;
+    color:white;
+    border-radius: 10px;
+}
+/**MAIN SECTION STYLING*/
+.main{
+    margin: 8%;
+    display:flex;
+    margin-right:8%;
+}
+.main-row1{
+    text-align: left;
+}
+.main-row1.text{
+    padding-left:250px;
+}
+h2{
+    font-size: 2.3rem;
+    padding:15px;
+}
+.second-row{
+    text-align:left;
+    padding:20px;
+    margin:20px;
+}
+.display{
+    display:flex;
+    padding-top:30px;
+}
+.main-icon{
+    padding-bottom:20px;
+}
+h3{
+    padding-bottom:10px;
+    font-size: 1.4rem;
+}
+/******************************************************     FEATURES     *************************************************/
+
+.features{
+    margin-left:7%;
+    margin-right:7%;
+    margin-bottom:7%;
+}
+.offer-section{
+    display:flex;
+    text-align: left;
+    padding-top:30px;
+}
+.offer{
+    margin:15px;
+}
+/**********************************         CTA CALLTO ACTION                        *********************/
+#CTA{
+    background-color:rgb(31, 20, 20);
+    color:white;
+    padding:10%;
+    text-align:center;
+}
+.h1cta{
+    font-size:4rem;
+    padding:10px
+}
+button{
+    margin-top:33px;
+    padding: 20px 50px 20px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    color:white;
+    font-weight: bold;
+    cursor:pointer;
+    border-radius:5px;
+}
+/***************** teams *********************/
+#team{
+    text-align: center;
+    padding-top:180px;
+}
+.teams{
+    display:flex;
+    margin:7%;
+}
+.team1{
+    margin:60px;
+    margin-left:175px;
+}
+.image-team{
+    border-radius: 100%;
+}
+.team-icon{
+    margin:30px;
+}
+/*************       THE WALL OF LOVE          ********************************/
+.tweets{
+    display:flex;
+    margin-top:40px;
+}
+#walloflove{
+    text-align:center;
+    margin: 7% 7% 7% 7%;
+}
+.twitter-tweet{
+    margin:20px;
+    display:inline-block;
+    font-size:small;
+}
+/****************          FOOOOTER      *********************************/
+#footer{
+    background-color: black;
+    color: white;
+    display:flex;
+}
+.footer{
+    display:flex;
+    text-align:left;
+    margin-left:7%;
+    margin-right:5%;
+}
+.footer-1{
+    text-align:left;
+    margin-top:6%;
+    margin-bottom:6%;
+    display:block;
+}
+.foot{
+    text-decoration:none;
+    color:white;
+    margin:5px;
+    margin-top:5px;
+}
+/***  MEDIA QUERIES ***/
+@media(max-width:1300px){
+    .navbar{
+        text-align: center;
+    }
+  .main-row1{
+      display:inline;
+
+  }
+  li{
+      display:block;
+  }
+  a{
+      margin-bottom: 5px;
+  }
+}   
